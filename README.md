@@ -36,38 +36,33 @@
 
 <h2>📸 Screenshots</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-
-  <div style="flex: 1 1 45%; max-width: 45%; box-sizing: border-box; text-align: center;">
-    <img src="RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+<!-- Container for 4 images in a single row -->
+<div style="display: flex; gap: 20px; justify-content: center; max-width: 1200px; margin: auto;">
+  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
+    <img src="RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-weight: 600;">1. Add Recipe Screen</p>
-    <p style="font-size: 14px; color: #555;">Create and add new recipes with inputs for name, category, prep time, ingredients, and notes.</p>
   </div>
-
-  <div style="flex: 1 1 45%; max-width: 45%; box-sizing: border-box; text-align: center;">
-    <img src="RecipeSaver/Images/list_view.png" alt="Recipe List" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  
+  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
+    <img src="RecipeSaver/Images/list_view.png" alt="Recipe List" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-weight: 600;">2. Recipe List Screen</p>
-    <p style="font-size: 14px; color: #555;">View your recipe collection with count, badges, swipe-to-delete, and easy navigation.</p>
   </div>
-
-  <div style="flex: 1 1 45%; max-width: 45%; box-sizing: border-box; text-align: center;">
-    <img src="RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  
+  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
+    <img src="RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-weight: 600;">3. Edit Recipe Screen</p>
-    <p style="font-size: 14px; color: #555;">Modify recipe name, category, prep time, ingredients, and notes.</p>
   </div>
-
-  <div style="flex: 1 1 45%; max-width: 45%; box-sizing: border-box; text-align: center;">
-    <img src="RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  
+  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
+    <img src="RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-weight: 600;">4. Recipe Detail Screen</p>
-    <p style="font-size: 14px; color: #555;">View full recipe info with badges, ingredients list, notes, and action buttons.</p>
   </div>
+</div>
 
-  <div style="flex: 1 1 45%; max-width: 45%; box-sizing: border-box; text-align: center;">
-    <img src="RecipeSaver/Images/full_list.png" alt="Full List" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-weight: 600;">5. Full Recipe List View</p>
-    <p style="font-size: 14px; color: #555;">Beautiful recipe cards with title, metadata, smooth transitions, and professional layout.</p>
-  </div>
-
+<!-- Single image below -->
+<div style="max-width: 450px; margin: 40px auto 0; text-align: center;">
+  <img src="RecipeSaver/Images/full_list.png" alt="Full List" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <p style="margin-top: 8px; font-weight: 600;">5. Full Recipe List View</p>
 </div>
 
 <hr>
