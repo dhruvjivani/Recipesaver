@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
-import CoreData
+internal import CoreData
 
 @main
 struct RecipeSaverApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
