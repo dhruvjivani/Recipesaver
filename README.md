@@ -37,7 +37,7 @@
 <h2>📸 Screenshots</h2>
 
 <h3>1. Add Recipe Screen</h3>
-<p><img src="=Images/add_recipe.png" alt="Create New Recipe" style="max-width:100%; height:auto;"></p>
+<p><img src="/Images/add_recipe.png" alt="Create New Recipe" style="max-width:100%; height:auto;"></p>
 <p>Create and add new recipes with:</p>
 <ul>
   <li>Recipe name input</li>
@@ -50,7 +50,7 @@
 <hr>
 
 <h3>2. Recipe List Screen</h3>
-<p><img src="Images/list_view.png" alt="Recipe List" style="max-width:100%; height:auto;"></p>
+<p><img src="/Images/list_view.png" alt="Recipe List" style="max-width:100%; height:auto;"></p>
 <p>Your recipe collection at a glance:</p>
 <ul>
   <li>Recipe count display</li>
@@ -62,7 +62,7 @@
 <hr>
 
 <h3>3. Edit Recipe Screen</h3>
-<p><img src="Images/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto;"></p>
+<p><img src="/Images/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto;"></p>
 <p>Update existing recipes:</p>
 <ul>
   <li>Modify recipe name, category, and prep time</li>
@@ -73,7 +73,7 @@
 <hr>
 
 <h3>4. Recipe Detail Screen</h3>
-<p><img src="Images/detail_view.png" alt="Recipe Details" style="max-width:100%; height:auto;"></p>
+<p><img src="/Images/detail_view.png" alt="Recipe Details" style="max-width:100%; height:auto;"></p>
 <p>View complete recipe information:</p>
 <ul>
   <li>Full recipe name with styled header</li>
@@ -86,7 +86,7 @@
 <hr>
 
 <h3>5. Full Recipe List View</h3>
-<p><img src="=Images/full_list.png" alt="Full List" style="max-width:100%; height:auto;"></p>
+<p><img src="=/Images/full_list.png" alt="Full List" style="max-width:100%; height:auto;"></p>
 <p>Beautiful recipe cards featuring:</p>
 <ul>
   <li>Recipe title with blue accent color</li>
