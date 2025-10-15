@@ -1,13 +1,140 @@
-<h1>RecipeSaver 📱</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RecipeSaver README</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #334477;
+    background: #F8F7F5;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1, h2, h3 {
+    color: #1A80CC;
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    margin-top: 2rem;
+    border-bottom: 2px solid #FF9933;
+    padding-bottom: 0.2rem;
+  }
+  h3 {
+    margin-top: 1.5rem;
+    color: #334477;
+  }
+  a {
+    color: #1A80CC;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #E0E0E0;
+    margin: 2rem 0;
+  }
+  ul, ol {
+    margin-left: 1.2rem;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  table, th, td {
+    border: 1px solid #E0E0E0;
+  }
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th {
+    background-color: #FF9933;
+    color: white;
+  }
+  pre {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  code {
+    background: #eee;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
 
-<p>A beautiful and intuitive iOS recipe management app built with SwiftUI. Store, organize, and manage all your favorite recipes in one elegant place.</p>
+  /* Header with images */
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  .header-text {
+    flex: 1 1 350px;
+    max-width: 600px;
+  }
+  .header-text p {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+  }
+  .image-gallery {
+    flex: 1 1 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+  }
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
 
-<p><strong>Repository:</strong> <a href="https://github.com/dhruvjivani/Recipesaver" target="_blank" rel="noopener noreferrer">https://github.com/dhruvjivani/Recipesaver</a></p>
+<div class="header-container">
+  <div class="header-text">
+    <h1>RecipeSaver 📱</h1>
+    <p>A beautiful and intuitive iOS recipe management app built with SwiftUI. Store, organize, and manage all your favorite recipes in one elegant place.</p>
+    <p><strong>Repository:</strong> 
+      <a href="https://github.com/dhruvjivani/Recipesaver" target="_blank" rel="noopener noreferrer">
+        https://github.com/dhruvjivani/Recipesaver
+      </a>
+    </p>
+  </div>
+  <div class="image-gallery">
+    <img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/add_recipe.png" alt="Add Recipe" />
+    <img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/list_view.png" alt="Recipe List" />
+    <img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" />
+    <img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/detail_view.png" alt="Recipe Details" />
+    <img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/full_list.png" alt="Full Recipe List" />
+  </div>
+</div>
 
 <hr>
 
 <h2>✨ Features</h2>
-
 <ul>
   <li>✅ <strong>Create & Edit Recipes</strong> - Add new recipes with ingredients, prep time, and notes</li>
   <li>✅ <strong>Organize by Category</strong> - Sort recipes into Main, Dessert, Snack, or Appetizer</li>
@@ -22,7 +149,6 @@
 <hr>
 
 <h2>🎨 Design Overview</h2>
-
 <p>RecipeSaver features a premium light theme with:</p>
 <ul>
   <li><strong>Primary Color:</strong> Professional Blue (#1A80CC)</li>
@@ -37,7 +163,7 @@
 <h2>📸 Screenshots</h2>
 
 <h3>1. Add Recipe Screen</h3>
-<p><img src="RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="max-width:100%; height:auto;"></p>
+<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="max-width:100%; height:auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></p>
 <p>Create and add new recipes with:</p>
 <ul>
   <li>Recipe name input</li>
@@ -50,7 +176,7 @@
 <hr>
 
 <h3>2. Recipe List Screen</h3>
-<p><img src="RecipeSaver/Images/list_view.png" alt="Recipe List" style="max-width:100%; height:auto;"></p>
+<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/list_view.png" alt="Recipe List" style="max-width:100%; height:auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></p>
 <p>Your recipe collection at a glance:</p>
 <ul>
   <li>Recipe count display</li>
@@ -62,7 +188,7 @@
 <hr>
 
 <h3>3. Edit Recipe Screen</h3>
-<p><img src="RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto;"></p>
+<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></p>
 <p>Update existing recipes:</p>
 <ul>
   <li>Modify recipe name, category, and prep time</li>
@@ -73,227 +199,66 @@
 <hr>
 
 <h3>4. Recipe Detail Screen</h3>
-<p><img src="RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="max-width:100%; height:auto;"></p>
+<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="max-width:100%; height:auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></p>
 <p>View complete recipe information:</p>
 <ul>
   <li>Full recipe name with styled header</li>
   <li>Category and prep time badges</li>
-  <li>Detailed ingredients list</li>
-  <li>Optional notes section</li>
-  <li>Action buttons: Edit, Delete, Export</li>
+  <li>Ingredients listed clearly</li>
+  <li>Additional notes</li>
 </ul>
 
 <hr>
 
-<h3>5. Full Recipe List View</h3>
-<p><img src="=RecipeSaver/Images/full_list.png" alt="Full List" style="max-width:100%; height:auto;"></p>
-<p>Beautiful recipe cards featuring:</p>
-<ul>
-  <li>Recipe title with blue accent color</li>
-  <li>Organized metadata with icons</li>
-  <li>Smooth card transitions</li>
-  <li>Professional spacing and layout</li>
-</ul>
+<h3>5. Full Recipe List Screen</h3>
+<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/RecipeSaver/Images/full_list.png" alt="Full Recipe List" style="max-width:100%; height:auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></p>
+<p>All your recipes organized and accessible.</p>
 
 <hr>
 
-<h2>🛠️ Tech Stack</h2>
-
-<ul>
-  <li><strong>Framework:</strong> SwiftUI</li>
-  <li><strong>Database:</strong> Core Data</li>
-  <li><strong>Language:</strong> Swift</li>
-  <li><strong>iOS Version:</strong> iOS 14+</li>
-  <li><strong>Architecture:</strong> MVVM Pattern</li>
-</ul>
+<h2>🛠️ Installation</h2>
+<pre><code>git clone https://github.com/dhruvjivani/Recipesaver.git
+cd Recipesaver
+open RecipeSaver.xcodeproj
+</code></pre>
+<p>Open the project in Xcode 14 or newer and build for iOS devices or simulator.</p>
 
 <hr>
 
-<h2>📁 Project Structure</h2>
-
-<pre>
-RecipeSaver/
-├── Views/
-│   ├── AddRecipeView.swift
-│   ├── EditRecipeView.swift
-│   ├── RecipeDetailView.swift
-│   └── RecipeListView.swift
-├── Models/
-│   └── Recipe.swift
-├── Helpers/
-│   └── FileExporter.swift
-└── RecipeSaverApp.swift
-</pre>
-
-<hr>
-
-<h2>🚀 Getting Started</h2>
-
-<h3>Prerequisites</h3>
-<ul>
-  <li>Xcode 13.0 or later</li>
-  <li>iOS 14.0 or later</li>
-  <li>Swift 5.5+</li>
-</ul>
-
-<h3>Installation</h3>
-
+<h2>🚀 Usage</h2>
 <ol>
-  <li>Clone the repository:<br>
-    <code>git clone https://github.com/dhruvjivani/Recipesaver.git<br>cd RecipeSaver</code>
-  </li>
-  <li>Open the project in Xcode:<br>
-    <code>open RecipeSaver.xcodeproj</code>
-  </li>
-  <li>Build and run:<br>
-    Select your target device/simulator and press <code>Cmd + R</code> or click Run
-  </li>
+  <li>Launch the app on your iOS device or simulator</li>
+  <li>Tap the "+" button to add a new recipe</li>
+  <li>Fill in the recipe details and save</li>
+  <li>Browse your recipes in the list</li>
+  <li>Tap any recipe to view or edit details</li>
+  <li>Swipe left to delete recipes</li>
 </ol>
 
 <hr>
 
-<h2>💡 Usage</h2>
-
-<h3>Adding a Recipe</h3>
-<ol>
-  <li>Tap the <strong>+</strong> button on the home screen</li>
-  <li>Enter recipe name</li>
-  <li>Select category</li>
-  <li>Adjust prep time using the stepper</li>
-  <li>Add ingredients (one per line)</li>
-  <li>Optionally add notes</li>
-  <li>Tap <strong>Save</strong></li>
-</ol>
-
-<h3>Editing a Recipe</h3>
-<ol>
-  <li>Navigate to recipe detail screen</li>
-  <li>Tap the <strong>pencil icon</strong> in the top toolbar</li>
-  <li>Make your changes</li>
-  <li>Tap <strong>Save</strong></li>
-</ol>
-
-<h3>Deleting a Recipe</h3>
+<h2>📚 Technologies</h2>
 <ul>
-  <li><strong>Option 1:</strong> Swipe left on the recipe in the list and tap Delete</li>
-  <li><strong>Option 2:</strong> Open recipe detail and tap the <strong>trash icon</strong></li>
+  <li>Swift 5</li>
+  <li>SwiftUI</li>
+  <li>Core Data for persistent storage</li>
+  <li>Xcode 14+</li>
 </ul>
-
-<h3>Exporting a Recipe</h3>
-<ol>
-  <li>Open recipe detail</li>
-  <li>Tap the <strong>share icon</strong></li>
-  <li>Choose your sharing method</li>
-</ol>
-
-<hr>
-
-<h2>🎯 Color Palette</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Element</th>
-      <th>Color</th>
-      <th>Hex Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Primary Text</td><td>Deep Blue</td><td>#1A80CC</td></tr>
-    <tr><td>Header</td><td>Light Blue</td><td>#334477</td></tr>
-    <tr><td>Background Gradient</td><td>Cream</td><td>#F8F7F5 → #FFFBF8</td></tr>
-    <tr><td>Accent - Time</td><td>Orange</td><td>#FF9933</td></tr>
-    <tr><td>Card Background</td><td>White</td><td>#FFFFFF</td></tr>
-    <tr><td>Border (Subtle)</td><td>Light Gray</td><td>#E0E0E0</td></tr>
-  </tbody>
-</table>
-
-<hr>
-
-<h2>📱 UI Components</h2>
-
-<h3>Buttons</h3>
-<ul>
-  <li><strong>Blue Save Button:</strong> Gradient background, white text</li>
-  <li><strong>Segmented Picker:</strong> Category selection with blue tint</li>
-  <li><strong>Icon Buttons:</strong> Edit (blue), Delete (red), Export (orange)</li>
-</ul>
-
-<h3>Cards</h3>
-<ul>
-  <li>Rounded corners (16pt radius)</li>
-  <li>Subtle shadows for depth</li>
-  <li>Colored borders based on section</li>
-  <li>Semi-transparent backgrounds</li>
-</ul>
-
-<h3>Typography</h3>
-<ul>
-  <li><strong>Titles:</strong> System rounded, 18pt, bold</li>
-  <li><strong>Labels:</strong> System rounded, 12pt, semibold</li>
-  <li><strong>Body:</strong> System rounded, 16pt, regular</li>
-</ul>
-
-<hr>
-
-<h2>🔧 Future Enhancements</h2>
-
-<ul>
-  <li>Search functionality</li>
-  <li>Recipe favorites/starred feature</li>
-  <li>Cooking timer integration</li>
-  <li>Recipe sharing with cloud sync</li>
-  <li>Photo upload for recipes</li>
-  <li>Ingredient quantity calculator</li>
-  <li>Dietary preference filtering</li>
-  <li>Dark mode support</li>
-</ul>
-
-<hr>
-
-<h2>📝 License</h2>
-
-<p>This project is open source and available under the MIT License.</p>
-
-<hr>
-
-<h2>👨‍💻 Author</h2>
-
-<p><strong>Dhruv Rasikbhai Jivani</strong><br>
-GitHub: <a href="https://github.com/dhruvjivani" target="_blank" rel="noopener noreferrer">@dhruvjivani</a><br>
-Repository: <a href="https://github.com/dhruvjivani/Recipesaver" target="_blank" rel="noopener noreferrer">RecipeSaver</a></p>
 
 <hr>
 
 <h2>🤝 Contributing</h2>
-
-<p>Contributions are welcome! To contribute:</p>
-
-<ol>
-  <li>Fork the repository</li>
-  <li>Create a feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
-  <li>Commit your changes (<code>git commit -m 'Add amazing feature'</code>)</li>
-  <li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
-  <li>Open a Pull Request</li>
-</ol>
+<p>Feel free to fork the repository and submit pull requests. Please ensure code style consistency and test your changes.</p>
 
 <hr>
 
-<h2>💬 Support</h2>
-
-<p>For support, please open an issue on the <a href="https://github.com/dhruvjivani/Recipesaver/issues" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
-
-<hr>
-
-<h2>🙏 Acknowledgments</h2>
-
-<ul>
-  <li>Built with SwiftUI and Core Data</li>
-  <li>Inspired by modern recipe management apps</li>
-  <li>Beautiful light theme design</li>
-  <li>Professional iOS development practices</li>
-</ul>
+<h2>📄 License</h2>
+<p>This project is licensed under the MIT License.</p>
 
 <hr>
 
-<p><strong>Happy Recipe Saving! 🍳📖</strong></p>
+<h2>📞 Contact</h2>
+<p>If you have questions, contact Dhruv Jivani at <a href="mailto:dhruvjivani.ca001@gmail.com">dhruvjivani.ca001@gmail.com</a>.</p>
+
+</body>
+</html>
