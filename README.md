@@ -62,7 +62,7 @@
 <hr>
 
 <h3>3. Edit Recipe Screen</h3>
-<p><img src="https://raw.githubusercontent.com/dhruvjivani/Recipesaver/main/images/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto;"></p>
+<p><img src="/mages/edit_recipe.png" alt="Edit Recipe" style="max-width:100%; height:auto;"></p>
 <p>Update existing recipes:</p>
 <ul>
   <li>Modify recipe name, category, and prep time</li>
