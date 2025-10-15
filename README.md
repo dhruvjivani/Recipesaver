@@ -36,34 +36,35 @@
 
 <h2>📸 Screenshots</h2>
 
-<!-- Container for 4 images in a single row -->
-<div style="display: flex; gap: 20px; justify-content: center; max-width: 1200px; margin: auto;">
-  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
-    <img src="RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-weight: 600;">1. Add Recipe Screen</p>
-  </div>
-  
-  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
-    <img src="RecipeSaver/Images/list_view.png" alt="Recipe List" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-weight: 600;">2. Recipe List Screen</p>
-  </div>
-  
-  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
-    <img src="RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-weight: 600;">3. Edit Recipe Screen</p>
-  </div>
-  
-  <div style="flex: 1 1 22%; max-width: 22%; text-align: center;">
-    <img src="RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-weight: 600;">4. Recipe Detail Screen</p>
-  </div>
-</div>
+<h2>📸 Screenshots</h2>
+
+<table style="width: 100%; max-width: 1200px; margin: auto; border-collapse: separate; border-spacing: 20px; text-align: center;">
+  <tr>
+    <td>
+      <img src="RecipeSaver/Images/add_recipe.png" alt="Create New Recipe" style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-weight: 600;">1. Add Recipe Screen</p>
+    </td>
+    <td>
+      <img src="RecipeSaver/Images/full_list.png" alt="Full List" style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-weight: 600;">2. Full Recipe List View</p>
+    </td>
+    <td>
+      <img src="RecipeSaver/Images/edit_recipe.png" alt="Edit Recipe" style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-weight: 600;">3. Edit Recipe Screen</p>
+    </td>
+    <td>
+      <img src="RecipeSaver/Images/detail_view.png" alt="Recipe Details" style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-weight: 600;">4. Recipe Detail Screen</p>
+    </td>
+  </tr>
+</table>
 
 <!-- Single image below -->
 <div style="max-width: 450px; margin: 40px auto 0; text-align: center;">
-  <img src="RecipeSaver/Images/full_list.png" alt="Full List" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-  <p style="margin-top: 8px; font-weight: 600;">5. Full Recipe List View</p>
+  <img src="RecipeSaver/Images/list_view.png" alt="Recipe List" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <p style="margin-top: 8px; font-weight: 600;">5. Recipe List Screen</p>
 </div>
+
 
 <hr>
 
